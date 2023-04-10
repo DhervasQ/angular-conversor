@@ -1,0 +1,2 @@
+<div class="valores"><ng-container *ngFor="let item of divisas"><app-valor [rate]="item" [seleccionada]="seleccionada" [cantidad] = "cantidad" (emitMessage)="setMessage($event)" ></app-valor> </ng-container>
+</div>
