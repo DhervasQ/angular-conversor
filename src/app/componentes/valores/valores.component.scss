@@ -1,4 +1,12 @@
-.valores{
+.divisas{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column ;
+    justify-content: space-between;
+  
+    &__valores{
+        display: flex;
+        flex-direction: column;
+    }
+
 }

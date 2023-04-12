@@ -1,4 +1,15 @@
 .formulario{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    color:white;
+    background-image: url(../../../assets/img/fondo.jpg);
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+input{
+    display: flex;
+    width: 40%;
 }
